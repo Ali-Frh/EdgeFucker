@@ -21,7 +21,7 @@ def find_chrome_path():
     return r"C:\Program Files\Google\Chrome\Application\chrome.exe"
         
 def extract_url(args):
-    win32api.MessageBox(0, " ".join(args), "proc", 0x10)
+   ## win32api.MessageBox(0, " ".join(args), "proc", 0x10)
 
     # Check if args contain microsoft-edge protocol
     for arg in args:
